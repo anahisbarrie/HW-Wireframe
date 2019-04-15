@@ -1,0 +1,43 @@
+body {
+    background-color: dimgray;
+}
+
+header {
+    color: dimgrey;
+    text-align: center;
+    background-color: white;
+
+}
+
+#nav {
+    color: dimgray;
+    text-align: center;
+    background-color: white;
+}
+
+#section {
+    color: dimgray;
+    text-align: center;
+    background-color: white;
+}
+
+#aside {
+    color: dimgray;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    width: 500px;
+    border: 3px;
+    padding: 10px;
+}
+
+#footer {
+    color: dimgray;
+    text-align: center;
+    background-color: white;
+}
+
+.second {
+    background-color: white;
+}
