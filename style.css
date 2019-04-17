@@ -7,72 +7,74 @@ body {
 
 }
 
-header, nav, section, footer {
+header, nav, section, footer, aside {
 background: #ebebeb;
+text-align: center;
+margin: 15px;
+padding: 10px;
 }
 
-
-header {
-
-    text-align: center;
-    padding: 20px;
-     margin: 10px 120px 10px 300px;
-
-}
-
-nav {
-  
-    text-align: center;
-  
-    margin: 10px 120px 10px 120px;
-    padding: 20px;
-
-}
-
-#section {
-
-    text-align: center;
-
-    width: 495px;
-    float: left;
-
-    padding: 30px 170px 5px 20px ;
-    margin: 5px 5px 5px 120px;
-}
-
-aside {
-  
-    text-align: center;
-  
-    width: 30%;
-    float: left;
-    margin: 5px 10px 5px 10px;
-    overflow: auto;
-    position: relative;
-
-
-}
-
-footer {
- 
-    text-align: center;
- 
-}
-   
 article {
     background: #777;
     color: #ebebeb;
-  
+    padding: 10px
 }
 
-h1 {
+h1, p {
     color: #777;
     background: #ebebeb;
-    margin: 10px;
+    padding: 15px;
+    text-align: center;
 }
 
-p {
-    color: #777;
-    background: #ebebeb;
-    margin: 10px;
+section {
+width: 495px;
+height: 300px;
+float: left;
+overflow: hidden;
 }
+
+aside {
+width: 355px;
+height: 300px;
+float: right;
+overflow: hidden;
+background: #ebebeb;
+
+}
+
+footer{
+    clear: both;
+}
+/* 
+header {
+    text-align: center;
+    padding: 20px;
+     margin: 10px 120px 10px 300px;
+}
+
+
+nav {
+    text-align: center;
+    margin: 10px 120px 10px 120px;
+    padding: 20px;
+}
+
+section {
+    text-align: center;
+    width: 495px;
+    float: left;
+}
+
+aside {
+    text-align: center;
+    float: left;
+    overflow: auto;
+    position: relative;
+}
+
+footer {
+    text-align: center;
+}
+    */
+
